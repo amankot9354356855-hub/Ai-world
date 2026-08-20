@@ -1,0 +1,17 @@
+PUBLISH CHECKLIST
+
+1) Create a Node.js hosting account.
+2) Upload this project / connect its Git repository.
+3) Set environment variables from .env.example.
+4) Start command: npm start
+5) Enable HTTPS.
+6) Open your public domain and test:
+   - Homepage
+   - QR payment
+   - Submit order
+   - Admin login
+   - Approve order
+   - Customer order status
+   - Product access
+
+For production scale, move orders from SQLite to managed Postgres/Supabase.
