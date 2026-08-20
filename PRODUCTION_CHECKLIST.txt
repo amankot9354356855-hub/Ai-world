@@ -1,0 +1,13 @@
+AI VIRAL WORLD — PRODUCTION CHECKLIST
+
+[ ] Deploy the full Node/Express project to a server with HTTPS.
+[ ] Set a strong random ADMIN_TOKEN in the server environment.
+[ ] Set PRODUCT_URL to the product destination.
+[ ] Confirm the QR belongs to the intended payment account.
+[ ] Test a real ₹199 payment.
+[ ] Submit a test order with the UTR.
+[ ] Open /admin, verify the payment, then approve.
+[ ] Confirm the buyer sees the private access page.
+[ ] Confirm the public landing page does NOT expose the product URL.
+[ ] Back up orders.json or replace it with a managed database.
+[ ] For fully automatic verification later, connect Razorpay/another gateway webhook and keep the same approve/release layer as a fallback.
